@@ -33,6 +33,11 @@ export const test = () => {
 
   const value:string | number | null= 123;
   console.log(value);
+
+  const reverseArray = (arr : string[], hasTom?:boolean):string[] => {
+    return arr.reverse();
+  }
+  console.log(reverseArray(["a","b","c"]));
 }
 
 
